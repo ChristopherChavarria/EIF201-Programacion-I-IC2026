@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ejercicio 1 Estadisticas de un arreglo.cpp">
+    <ClCompile Include="Ejercicio 1 Estadisticas de un Arreglo.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Estadisticas de un arreglo.cpp">
+    <ClCompile Include="Estadisticas.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Estadisticas Arreglo.h">
+    <ClInclude Include="Estadisticas.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
