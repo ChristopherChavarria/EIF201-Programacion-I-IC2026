@@ -15,29 +15,7 @@ el programa debera calcular e imprimir los siguientes resultados:
 int main()
 {
 
-    int numeros[10];
-    int mayor = 0; 
-    int menor = 0;
-    int suma = 0;
-
-    for (int i = 0; i < 10; i++) {
-        cout << "Ingrese 10 numeros enteros: " << endl;
-        cin >> numeros[i];
-
-        if (numero[i] > mayor) {
-
-        }
-    }
     
-
-
-
-
-
-
-
-
-
+    
     return 0;
 }
-
