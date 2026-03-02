@@ -23,7 +23,8 @@ int main() {
     system("cls");
 
     cout << "Ingrese los valores del arreglo:" << endl;
-    for (int i = 0; i < tamano; i++) {
+    for (int i = 0; i < tamano; i++)
+    {
         cout << "Elemento [" << i << "]: ";
         cin >> original[i];
     }
@@ -33,15 +34,18 @@ int main() {
     InversionArreglo inverso;
     inverso.invertir(original, invertido, tamano);
 
-    // Mostrar original
-    cout << "Mostrando Arreglo original:"<<endl;
-    for (int i = 0; i < tamano; i++) {
+    
+    cout << "Mostrando Arreglo original:" << endl;
+    for (int i = 0; i < tamano; i++)
+    {
         cout << original[i] << " ";
     }
+
     cout << endl;
-    // Mostrar invertido
-    cout << " Arreglo invertido:"<<endl;
-    for (int i = 0; i < tamano; i++) {
+   
+    cout << "Mostrando Arreglo invertido:" << endl;
+    for (int i = 0; i < tamano; i++)
+    {
         cout << invertido[i] << " ";
     }
 

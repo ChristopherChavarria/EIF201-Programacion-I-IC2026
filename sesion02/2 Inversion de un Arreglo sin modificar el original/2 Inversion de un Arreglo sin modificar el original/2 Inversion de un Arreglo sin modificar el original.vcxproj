@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1bfbce52-daef-40de-bd5c-5cc159493509}</ProjectGuid>
-    <RootNamespace>My1InversiondeunArreglosinmodificareloriginal</RootNamespace>
+    <ProjectGuid>{952c5be3-6f47-4f98-b196-043f311ec389}</ProjectGuid>
+    <RootNamespace>My2InversiondeunArreglosinmodificareloriginal</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1 Inversion de un Arreglo sin modificar el original.cpp" />
+    <ClCompile Include="2 Inversion de un Arreglo sin modificar el original.cpp" />
     <ClCompile Include="InversionArreglo.cpp" />
   </ItemGroup>
   <ItemGroup>

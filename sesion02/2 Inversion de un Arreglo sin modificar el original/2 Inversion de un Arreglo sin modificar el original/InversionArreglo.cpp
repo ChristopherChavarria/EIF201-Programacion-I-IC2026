@@ -5,6 +5,6 @@ void InversionArreglo::invertir(const int original[], int invertido[], int tam) 
 
     for (int i = 0; i < tam; i++) {
         invertido[j] = original[i];
-        j--;           
+        j--;
     }
 }
