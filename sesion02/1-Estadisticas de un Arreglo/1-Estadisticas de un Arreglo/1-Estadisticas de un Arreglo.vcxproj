@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{83f442e7-f9e2-4b30-b118-6f491ae15508}</ProjectGuid>
-    <RootNamespace>Ejercicio1EstadisticasdeunArreglo</RootNamespace>
+    <ProjectGuid>{ed78183b-6dba-4018-87a4-8da5dd399d44}</ProjectGuid>
+    <RootNamespace>My1EstadisticasdeunArreglo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ejercicio 1 Estadisticas de un Arreglo.cpp" />
-    <ClCompile Include="Estadisticas.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Estadisticas.h" />
+    <ClCompile Include="1-Estadisticas de un Arreglo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

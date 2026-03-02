@@ -1,4 +1,4 @@
-// Ejercicio 1 Estadisticas de un Arreglo.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+// 1-Estadisticas de un Arreglo.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 //
 
 #include <iostream>
