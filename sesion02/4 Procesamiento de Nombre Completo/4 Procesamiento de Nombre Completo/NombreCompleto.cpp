@@ -21,17 +21,22 @@ string NombreCompleto::RecibirPrimerApellido(){
 	return ""; 
 }
 
-int NombreCompleto::contarVocales(){
-	int contadorVocales = 0;
-	for (char c : nombreCompleto) 
-	{
-		if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
-			c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
-		{
-			contadorVocales++;
+int NombreCompleto::contarVocales() {
+	int contador = 0;
+
+	for (size_t i = 0; i < nombreCompleto.length(); i++) {
+		char c = nombreCompleto[i];
+
+		if (c == 'a' || c == 'A' ||
+			c == 'e' || c == 'E' ||
+			c == 'i' || c == 'I' ||
+			c == 'o' || c == 'O' ||
+			c == 'u' || c == 'U') {
+			contador++;
 		}
 	}
-	return contadorVocales;
+
+	return contador;
 }
 
 string NombreCompleto::convertirMayusculas()
