@@ -6,8 +6,6 @@
 
 \*\*Estudiante:\*\*Christopher Andres Chavarria Solorzano
 
-\*\*Carnet:\*\* 604970216
-
 \*\*Correo:\*\* christopher.chavarria.solorzano@est.una.ac.cr
 
 \*\*Grupo:\*\* 90
