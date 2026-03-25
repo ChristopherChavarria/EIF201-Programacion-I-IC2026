@@ -18,5 +18,5 @@ Contiene laboratorios, ejercicios de practica y el proyecto del curso.
 
 
 
--/sesion02 -Git, Arreglos, Matrices y Cadenas
+\-/sesion02 -Git, Arreglos, Matrices y Cadenas
 
