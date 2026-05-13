@@ -61,10 +61,10 @@ namespace EIF201 {
 	}
 
 	void Vehiculo::mostrar()const {
-		std::cout << "Placa:" << placa;
-		std::cout << "Marca:" << marca;
-		std::cout << "Anio:" << anio;
-		std::cout << "Kilometraje:" << kilometraje;
+		std::cout << "Placa:" << placa << std::endl;
+		std::cout << "Marca:" << marca << std::endl;
+		std::cout << "Anio:" << anio << std::endl;
+		std::cout << "Kilometraje:" << kilometraje << std::endl;
 		std::cout << "Estado: ";
 		
 			

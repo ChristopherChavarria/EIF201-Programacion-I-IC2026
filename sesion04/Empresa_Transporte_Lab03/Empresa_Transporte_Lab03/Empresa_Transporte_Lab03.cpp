@@ -20,8 +20,8 @@ int main() {
         std::cout << "5. Desactivar vehiculo" << std::endl;
         std::cout << "6. Reactivar vehiculo" << std::endl;
         std::cout << "7. Eliminar vehiculo" << std::endl;
-        std::cout << "8. Mostrar todos" << std::endl;
-        std::cout << "9. Contar activos" << std::endl;
+        std::cout << "8. Mostrar todos todos los vehiculos" << std::endl;
+        std::cout << "9. Contar Vehiculos activos" << std::endl;
         std::cout << "10. Salir" << std::endl;
         std::cout << "Seleccione: ";
         std::cin >> opcion;
@@ -143,6 +143,7 @@ int main() {
 
         case 8:
             flota.mostrarTodos();
+            std::cout << std::endl;
             break;
 
         case 9:
